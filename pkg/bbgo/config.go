@@ -12,11 +12,11 @@ import (
 	"github.com/pkg/errors"
 	"gopkg.in/yaml.v3"
 
-	"github.com/c9s/bbgo/pkg/datatype"
-	"github.com/c9s/bbgo/pkg/dynamic"
-	"github.com/c9s/bbgo/pkg/fixedpoint"
-	"github.com/c9s/bbgo/pkg/service"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/datatype"
+	"github.com/puper/bbgo/pkg/dynamic"
+	"github.com/puper/bbgo/pkg/fixedpoint"
+	"github.com/puper/bbgo/pkg/service"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 // DefaultFeeRate set the fee rate for most cases

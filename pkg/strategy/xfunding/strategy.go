@@ -9,15 +9,15 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/c9s/bbgo/pkg/exchange/batch"
-	"github.com/c9s/bbgo/pkg/exchange/binance"
-	"github.com/c9s/bbgo/pkg/exchange/binance/binanceapi"
-	"github.com/c9s/bbgo/pkg/fixedpoint"
-	"github.com/c9s/bbgo/pkg/strategy/common"
-	"github.com/c9s/bbgo/pkg/util/backoff"
+	"github.com/puper/bbgo/pkg/exchange/batch"
+	"github.com/puper/bbgo/pkg/exchange/binance"
+	"github.com/puper/bbgo/pkg/exchange/binance/binanceapi"
+	"github.com/puper/bbgo/pkg/fixedpoint"
+	"github.com/puper/bbgo/pkg/strategy/common"
+	"github.com/puper/bbgo/pkg/util/backoff"
 
-	"github.com/c9s/bbgo/pkg/bbgo"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/bbgo"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 // WIP:

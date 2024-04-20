@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/c9s/bbgo/pkg/exchange/bybit/bybitapi"
-	v3 "github.com/c9s/bbgo/pkg/exchange/bybit/bybitapi/v3"
-	"github.com/c9s/bbgo/pkg/fixedpoint"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/exchange/bybit/bybitapi"
+	v3 "github.com/puper/bbgo/pkg/exchange/bybit/bybitapi/v3"
+	"github.com/puper/bbgo/pkg/fixedpoint"
+	"github.com/puper/bbgo/pkg/types"
 	"github.com/stretchr/testify/assert"
 )
 

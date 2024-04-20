@@ -3,7 +3,7 @@ package indicatorv2
 import (
 	"math"
 
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 // This TRStream calculates the ATR first

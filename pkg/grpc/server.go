@@ -12,9 +12,9 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 
-	"github.com/c9s/bbgo/pkg/bbgo"
-	"github.com/c9s/bbgo/pkg/pb"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/bbgo"
+	"github.com/puper/bbgo/pkg/pb"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 type TradingService struct {

@@ -5,7 +5,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/c9s/bbgo/pkg/exchange/kucoin/kucoinapi"
+	"github.com/puper/bbgo/pkg/exchange/kucoin/kucoinapi"
 	"github.com/joho/godotenv"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"

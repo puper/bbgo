@@ -10,12 +10,12 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/c9s/bbgo/pkg/backtest"
-	"github.com/c9s/bbgo/pkg/bbgo"
-	"github.com/c9s/bbgo/pkg/exchange"
-	"github.com/c9s/bbgo/pkg/service"
-	"github.com/c9s/bbgo/pkg/types"
-	"github.com/c9s/bbgo/pkg/util"
+	"github.com/puper/bbgo/pkg/backtest"
+	"github.com/puper/bbgo/pkg/bbgo"
+	"github.com/puper/bbgo/pkg/exchange"
+	"github.com/puper/bbgo/pkg/service"
+	"github.com/puper/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/util"
 )
 
 func RunBacktest(t *testing.T, strategy bbgo.SingleExchangeStrategy) {

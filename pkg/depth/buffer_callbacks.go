@@ -3,7 +3,7 @@
 package depth
 
 import (
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 func (b *Buffer) OnReset(cb func()) {

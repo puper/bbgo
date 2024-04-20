@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/c9s/bbgo/pkg/bbgo"
-	"github.com/c9s/bbgo/pkg/util"
+	"github.com/puper/bbgo/pkg/bbgo"
+	"github.com/puper/bbgo/pkg/util"
 )
 
 func (s *Strategy) runBackgroundTask(ctx context.Context) {

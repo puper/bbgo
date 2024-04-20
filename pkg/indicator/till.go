@@ -1,7 +1,7 @@
 package indicator
 
 import (
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 const defaultVolumeFactor = 0.7

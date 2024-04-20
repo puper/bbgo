@@ -3,7 +3,7 @@ package v3
 import (
 	"github.com/c9s/requestgen"
 
-	"github.com/c9s/bbgo/pkg/exchange/bybit/bybitapi"
+	"github.com/puper/bbgo/pkg/exchange/bybit/bybitapi"
 )
 
 type APIResponse = bybitapi.APIResponse

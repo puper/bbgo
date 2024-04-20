@@ -9,10 +9,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/mock/gomock"
 
-	"github.com/c9s/bbgo/pkg/exchange/bybit/bybitapi"
-	"github.com/c9s/bbgo/pkg/exchange/bybit/mocks"
-	"github.com/c9s/bbgo/pkg/fixedpoint"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/exchange/bybit/bybitapi"
+	"github.com/puper/bbgo/pkg/exchange/bybit/mocks"
+	"github.com/puper/bbgo/pkg/fixedpoint"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 func TestFeeRatePoller_getAllFeeRates(t *testing.T) {

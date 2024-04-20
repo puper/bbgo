@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/c9s/bbgo/pkg/dynamic"
-	"github.com/c9s/bbgo/pkg/interact"
-	"github.com/c9s/bbgo/pkg/util"
+	"github.com/puper/bbgo/pkg/dynamic"
+	"github.com/puper/bbgo/pkg/interact"
+	"github.com/puper/bbgo/pkg/util"
 	log "github.com/sirupsen/logrus"
 )
 

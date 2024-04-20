@@ -10,13 +10,13 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	"github.com/c9s/bbgo/pkg/datatype/floats"
+	"github.com/puper/bbgo/pkg/datatype/floats"
 
-	"github.com/c9s/bbgo/pkg/bbgo"
-	"github.com/c9s/bbgo/pkg/fixedpoint"
-	"github.com/c9s/bbgo/pkg/indicator"
-	"github.com/c9s/bbgo/pkg/report"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/bbgo"
+	"github.com/puper/bbgo/pkg/fixedpoint"
+	"github.com/puper/bbgo/pkg/indicator"
+	"github.com/puper/bbgo/pkg/report"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 const ID = "supertrend"

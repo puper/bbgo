@@ -3,7 +3,7 @@ package core
 import (
 	"sync"
 
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 type OrderStore struct {

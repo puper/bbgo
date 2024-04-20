@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/c9s/bbgo/pkg/bbgo"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/bbgo"
+	"github.com/puper/bbgo/pkg/types"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -11,8 +11,8 @@ import (
 
 	"github.com/google/uuid"
 
-	max "github.com/c9s/bbgo/pkg/exchange/max/maxapi"
-	"github.com/c9s/bbgo/pkg/types"
+	max "github.com/puper/bbgo/pkg/exchange/max/maxapi"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 //go:generate callbackgen -type Stream

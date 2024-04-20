@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/c9s/bbgo/pkg/bbgo"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/bbgo"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 type GeneralOrderExecutorMap map[string]*bbgo.GeneralOrderExecutor

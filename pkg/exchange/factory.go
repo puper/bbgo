@@ -5,13 +5,13 @@ import (
 	"os"
 	"strings"
 
-	"github.com/c9s/bbgo/pkg/exchange/binance"
-	"github.com/c9s/bbgo/pkg/exchange/bitget"
-	"github.com/c9s/bbgo/pkg/exchange/bybit"
-	"github.com/c9s/bbgo/pkg/exchange/kucoin"
-	"github.com/c9s/bbgo/pkg/exchange/max"
-	"github.com/c9s/bbgo/pkg/exchange/okex"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/exchange/binance"
+	"github.com/puper/bbgo/pkg/exchange/bitget"
+	"github.com/puper/bbgo/pkg/exchange/bybit"
+	"github.com/puper/bbgo/pkg/exchange/kucoin"
+	"github.com/puper/bbgo/pkg/exchange/max"
+	"github.com/puper/bbgo/pkg/exchange/okex"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 func NewPublic(exchangeName types.ExchangeName) (types.Exchange, error) {

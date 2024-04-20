@@ -1,6 +1,6 @@
 package bybitapi
 
-import "github.com/c9s/bbgo/pkg/types"
+import "github.com/puper/bbgo/pkg/types"
 
 var (
 	SupportedIntervals = map[types.Interval]int{

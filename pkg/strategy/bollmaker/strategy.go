@@ -9,11 +9,11 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	indicatorv2 "github.com/c9s/bbgo/pkg/indicator/v2"
+	indicatorv2 "github.com/puper/bbgo/pkg/indicator/v2"
 
-	"github.com/c9s/bbgo/pkg/bbgo"
-	"github.com/c9s/bbgo/pkg/fixedpoint"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/bbgo"
+	"github.com/puper/bbgo/pkg/fixedpoint"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 // TODO:

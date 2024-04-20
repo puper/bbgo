@@ -12,9 +12,9 @@ import (
 	"github.com/gorilla/websocket"
 	"golang.org/x/time/rate"
 
-	"github.com/c9s/bbgo/pkg/exchange/bitget/bitgetapi"
-	v2 "github.com/c9s/bbgo/pkg/exchange/bitget/bitgetapi/v2"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/exchange/bitget/bitgetapi"
+	v2 "github.com/puper/bbgo/pkg/exchange/bitget/bitgetapi/v2"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 var (

@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/c9s/bbgo/pkg/testutil"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/testutil"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 func getTestClientOrSkip(t *testing.T) *Stream {

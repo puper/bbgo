@@ -3,8 +3,8 @@ package okex
 import (
 	"context"
 
-	"github.com/c9s/bbgo/pkg/exchange/okex/okexapi"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/exchange/okex/okexapi"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 //go:generate callbackgen -type KLineStream -interface

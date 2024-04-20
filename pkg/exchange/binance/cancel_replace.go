@@ -5,8 +5,8 @@ import (
 	"fmt"
 
 	"github.com/adshao/go-binance/v2"
-	"github.com/c9s/bbgo/pkg/exchange/binance/binanceapi"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/exchange/binance/binanceapi"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 func (e *Exchange) CancelReplace(ctx context.Context, cancelReplaceMode types.CancelReplaceModeType, o types.Order) (*types.Order, error) {

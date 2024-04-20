@@ -3,7 +3,7 @@ package indicator
 import (
 	"time"
 
-	"github.com/c9s/bbgo/pkg/fixedpoint"
+	"github.com/puper/bbgo/pkg/fixedpoint"
 )
 
 var three = fixedpoint.NewFromInt(3)

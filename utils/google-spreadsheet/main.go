@@ -13,9 +13,9 @@ import (
 	"google.golang.org/api/option"
 	"google.golang.org/api/sheets/v4"
 
-	"github.com/c9s/bbgo/pkg/fixedpoint"
-	googleservice "github.com/c9s/bbgo/pkg/service/google"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/fixedpoint"
+	googleservice "github.com/puper/bbgo/pkg/service/google"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 // Retrieve a token, saves the token, then returns the generated client.

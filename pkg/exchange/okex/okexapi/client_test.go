@@ -3,7 +3,7 @@ package okexapi
 import (
 	"context"
 	"fmt"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/types"
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/assert"
 	"os"
@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/c9s/bbgo/pkg/testutil"
+	"github.com/puper/bbgo/pkg/testutil"
 )
 
 func getTestClientOrSkip(t *testing.T) *RestClient {

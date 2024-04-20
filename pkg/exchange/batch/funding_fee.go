@@ -6,8 +6,8 @@ import (
 
 	"golang.org/x/time/rate"
 
-	"github.com/c9s/bbgo/pkg/exchange/binance/binanceapi"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/exchange/binance/binanceapi"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 type BinanceFuturesIncomeHistoryService interface {

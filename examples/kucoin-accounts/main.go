@@ -10,7 +10,7 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/c9s/bbgo/pkg/exchange/kucoin/kucoinapi"
+	"github.com/puper/bbgo/pkg/exchange/kucoin/kucoinapi"
 )
 
 func init() {

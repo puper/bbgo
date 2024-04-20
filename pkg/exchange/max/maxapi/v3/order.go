@@ -3,7 +3,7 @@ package v3
 import (
 	"github.com/c9s/requestgen"
 
-	maxapi "github.com/c9s/bbgo/pkg/exchange/max/maxapi"
+	maxapi "github.com/puper/bbgo/pkg/exchange/max/maxapi"
 )
 
 // create type alias

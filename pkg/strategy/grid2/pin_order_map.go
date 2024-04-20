@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/c9s/bbgo/pkg/fixedpoint"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/fixedpoint"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 // PinOrderMap store the pin-order's relation, we will change key from string to fixedpoint.Value when FormatString fixed

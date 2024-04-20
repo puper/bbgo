@@ -3,7 +3,7 @@ package coinmarketcap
 import (
 	"context"
 
-	v1 "github.com/c9s/bbgo/pkg/datasource/coinmarketcap/v1"
+	v1 "github.com/puper/bbgo/pkg/datasource/coinmarketcap/v1"
 )
 
 type DataSource struct {

@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/c9s/bbgo/pkg/fixedpoint"
+	"github.com/puper/bbgo/pkg/fixedpoint"
 )
 
 func prepareOrderBookBenchmarkData() (asks, bids PriceVolumeSlice) {

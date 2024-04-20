@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	v3 "github.com/c9s/bbgo/pkg/exchange/max/maxapi/v3"
-	"github.com/c9s/bbgo/pkg/types"
+	v3 "github.com/puper/bbgo/pkg/exchange/max/maxapi/v3"
+	"github.com/puper/bbgo/pkg/types"
 	"github.com/stretchr/testify/assert"
 )
 

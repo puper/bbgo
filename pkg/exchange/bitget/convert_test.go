@@ -7,9 +7,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	v2 "github.com/c9s/bbgo/pkg/exchange/bitget/bitgetapi/v2"
-	"github.com/c9s/bbgo/pkg/fixedpoint"
-	"github.com/c9s/bbgo/pkg/types"
+	v2 "github.com/puper/bbgo/pkg/exchange/bitget/bitgetapi/v2"
+	"github.com/puper/bbgo/pkg/fixedpoint"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 func Test_toGlobalBalance(t *testing.T) {

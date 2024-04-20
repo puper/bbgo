@@ -1,8 +1,8 @@
 package indicatorv2
 
 import (
-	"github.com/c9s/bbgo/pkg/datatype/floats"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/datatype/floats"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 type PivotHighStream struct {

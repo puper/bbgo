@@ -7,7 +7,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/c9s/bbgo/pkg/fixedpoint"
+	"github.com/puper/bbgo/pkg/fixedpoint"
 )
 
 // SliceOrderBook is a general order book structure which could be used

@@ -10,7 +10,7 @@ import (
 	"google.golang.org/api/option"
 	"google.golang.org/api/sheets/v4"
 
-	"github.com/c9s/bbgo/pkg/fixedpoint"
+	"github.com/puper/bbgo/pkg/fixedpoint"
 )
 
 var log = logrus.WithField("service", "google")

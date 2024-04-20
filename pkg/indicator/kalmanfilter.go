@@ -3,8 +3,8 @@ package indicator
 import (
 	"math"
 
-	"github.com/c9s/bbgo/pkg/datatype/floats"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/datatype/floats"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 // Refer: https://www.kalmanfilter.net/kalman1d.html

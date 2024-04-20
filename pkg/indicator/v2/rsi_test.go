@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/c9s/bbgo/pkg/datatype/floats"
+	"github.com/puper/bbgo/pkg/datatype/floats"
 )
 
 func Test_RSI2(t *testing.T) {

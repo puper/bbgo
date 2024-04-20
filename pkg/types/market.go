@@ -6,7 +6,7 @@ import (
 
 	"github.com/leekchan/accounting"
 
-	"github.com/c9s/bbgo/pkg/fixedpoint"
+	"github.com/puper/bbgo/pkg/fixedpoint"
 )
 
 type Market struct {

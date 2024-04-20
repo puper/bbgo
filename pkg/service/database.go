@@ -8,8 +8,8 @@ import (
 
 	"github.com/c9s/rockhopper/v2"
 
-	mysqlMigrations "github.com/c9s/bbgo/pkg/migrations/mysql"
-	sqlite3Migrations "github.com/c9s/bbgo/pkg/migrations/sqlite3"
+	mysqlMigrations "github.com/puper/bbgo/pkg/migrations/mysql"
+	sqlite3Migrations "github.com/puper/bbgo/pkg/migrations/sqlite3"
 )
 
 // reflect cache for database

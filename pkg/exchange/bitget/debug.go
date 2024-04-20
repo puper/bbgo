@@ -1,6 +1,6 @@
 package bitget
 
-import "github.com/c9s/bbgo/pkg/util"
+import "github.com/puper/bbgo/pkg/util"
 
 type LogFunction func(msg string, args ...interface{})
 

@@ -3,8 +3,8 @@ package grid2
 import (
 	"testing"
 
-	"github.com/c9s/bbgo/pkg/fixedpoint"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/fixedpoint"
+	"github.com/puper/bbgo/pkg/types"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -2,7 +2,7 @@ package types
 
 import (
 	"fmt"
-	"github.com/c9s/bbgo/pkg/fixedpoint"
+	"github.com/puper/bbgo/pkg/fixedpoint"
 )
 
 // BookTicker time exists in ftx, not in binance

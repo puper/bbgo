@@ -1,6 +1,6 @@
 package types
 
-import "github.com/c9s/bbgo/pkg/fixedpoint"
+import "github.com/puper/bbgo/pkg/fixedpoint"
 
 type ValueMap map[string]fixedpoint.Value
 

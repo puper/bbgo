@@ -12,8 +12,8 @@ import (
 	"github.com/jedib0t/go-pretty/v6/table"
 	"github.com/jedib0t/go-pretty/v6/text"
 
-	"github.com/c9s/bbgo/pkg/types"
-	"github.com/c9s/bbgo/pkg/util"
+	"github.com/puper/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/util"
 )
 
 func DefaultWhiteList() []string {

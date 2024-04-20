@@ -4,9 +4,9 @@ import (
 	"math"
 	"time"
 
-	"github.com/c9s/bbgo/pkg/datatype/bools"
-	"github.com/c9s/bbgo/pkg/datatype/floats"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/datatype/bools"
+	"github.com/puper/bbgo/pkg/datatype/floats"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 // based on "UT Bot Alerts by QuantNomad" from tradingview

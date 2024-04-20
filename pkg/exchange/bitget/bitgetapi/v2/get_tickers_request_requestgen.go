@@ -6,7 +6,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/c9s/bbgo/pkg/exchange/bitget/bitgetapi"
+	"github.com/puper/bbgo/pkg/exchange/bitget/bitgetapi"
 	"net/url"
 	"reflect"
 	"regexp"

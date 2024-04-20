@@ -10,9 +10,9 @@ import (
 	"github.com/jmoiron/sqlx"
 	log "github.com/sirupsen/logrus"
 
-	exchange2 "github.com/c9s/bbgo/pkg/exchange"
-	"github.com/c9s/bbgo/pkg/exchange/batch"
-	"github.com/c9s/bbgo/pkg/types"
+	exchange2 "github.com/puper/bbgo/pkg/exchange"
+	"github.com/puper/bbgo/pkg/exchange/batch"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 type OrderService struct {

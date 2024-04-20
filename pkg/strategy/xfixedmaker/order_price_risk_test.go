@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/c9s/bbgo/pkg/fixedpoint"
-	indicatorv2 "github.com/c9s/bbgo/pkg/indicator/v2"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/fixedpoint"
+	indicatorv2 "github.com/puper/bbgo/pkg/indicator/v2"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 func Test_OrderPriceRiskControl_IsSafe(t *testing.T) {

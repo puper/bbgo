@@ -5,10 +5,10 @@ import (
 	"strings"
 	"time"
 
-	max "github.com/c9s/bbgo/pkg/exchange/max/maxapi"
-	v3 "github.com/c9s/bbgo/pkg/exchange/max/maxapi/v3"
-	"github.com/c9s/bbgo/pkg/fixedpoint"
-	"github.com/c9s/bbgo/pkg/types"
+	max "github.com/puper/bbgo/pkg/exchange/max/maxapi"
+	v3 "github.com/puper/bbgo/pkg/exchange/max/maxapi/v3"
+	"github.com/puper/bbgo/pkg/fixedpoint"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 func toGlobalCurrency(currency string) string {

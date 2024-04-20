@@ -11,7 +11,7 @@ import (
 	"github.com/jmoiron/sqlx"
 	"github.com/sirupsen/logrus"
 
-	"github.com/c9s/bbgo/pkg/bbgo"
+	"github.com/puper/bbgo/pkg/bbgo"
 )
 
 func (s *Server) setupTestDB(c *gin.Context) {

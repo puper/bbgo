@@ -8,8 +8,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/c9s/bbgo/pkg/types"
-	"github.com/c9s/bbgo/pkg/util"
+	"github.com/puper/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/util"
 )
 
 type SnapshotFetcher func() (snapshot types.SliceOrderBook, finalUpdateID int64, err error)

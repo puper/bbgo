@@ -5,13 +5,13 @@ import (
 	"net"
 	"time"
 
-	"github.com/c9s/bbgo/pkg/depth"
-	"github.com/c9s/bbgo/pkg/util"
+	"github.com/puper/bbgo/pkg/depth"
+	"github.com/puper/bbgo/pkg/util"
 
 	"github.com/adshao/go-binance/v2"
 	"github.com/adshao/go-binance/v2/futures"
 
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 // from Binance document:

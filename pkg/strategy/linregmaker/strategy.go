@@ -3,22 +3,22 @@ package linregmaker
 import (
 	"context"
 	"fmt"
-	"github.com/c9s/bbgo/pkg/report"
+	"github.com/puper/bbgo/pkg/report"
 	"os"
 	"strconv"
 	"sync"
 
-	"github.com/c9s/bbgo/pkg/risk/dynamicrisk"
+	"github.com/puper/bbgo/pkg/risk/dynamicrisk"
 
-	"github.com/c9s/bbgo/pkg/indicator"
-	"github.com/c9s/bbgo/pkg/util"
+	"github.com/puper/bbgo/pkg/indicator"
+	"github.com/puper/bbgo/pkg/util"
 
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	"github.com/c9s/bbgo/pkg/bbgo"
-	"github.com/c9s/bbgo/pkg/fixedpoint"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/bbgo"
+	"github.com/puper/bbgo/pkg/fixedpoint"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 // TODO: Docs

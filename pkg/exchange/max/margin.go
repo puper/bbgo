@@ -5,9 +5,9 @@ import (
 	"errors"
 	"fmt"
 
-	v3 "github.com/c9s/bbgo/pkg/exchange/max/maxapi/v3"
-	"github.com/c9s/bbgo/pkg/fixedpoint"
-	"github.com/c9s/bbgo/pkg/types"
+	v3 "github.com/puper/bbgo/pkg/exchange/max/maxapi/v3"
+	"github.com/puper/bbgo/pkg/fixedpoint"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 // TransferMarginAccountAsset transfers the asset into/out from the margin account

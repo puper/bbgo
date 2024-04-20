@@ -5,7 +5,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 // generated from Binance 2022/07/27 00:00

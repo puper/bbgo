@@ -10,10 +10,10 @@ import (
 	sq "github.com/Masterminds/squirrel"
 	"github.com/jmoiron/sqlx"
 
-	exchange2 "github.com/c9s/bbgo/pkg/exchange"
-	"github.com/c9s/bbgo/pkg/exchange/batch"
-	"github.com/c9s/bbgo/pkg/fixedpoint"
-	"github.com/c9s/bbgo/pkg/types"
+	exchange2 "github.com/puper/bbgo/pkg/exchange"
+	"github.com/puper/bbgo/pkg/exchange/batch"
+	"github.com/puper/bbgo/pkg/fixedpoint"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 // RewardService collects the reward records from the exchange,

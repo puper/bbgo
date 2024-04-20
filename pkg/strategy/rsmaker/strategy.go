@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/c9s/bbgo/pkg/indicator"
+	"github.com/puper/bbgo/pkg/indicator"
 
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
@@ -13,9 +13,9 @@ import (
 	"github.com/muesli/clusters"
 	"github.com/muesli/kmeans"
 
-	"github.com/c9s/bbgo/pkg/bbgo"
-	"github.com/c9s/bbgo/pkg/fixedpoint"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/bbgo"
+	"github.com/puper/bbgo/pkg/fixedpoint"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 const ID = "rsmaker"

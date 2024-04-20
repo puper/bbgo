@@ -1,8 +1,8 @@
 package risk
 
 import (
-	"github.com/c9s/bbgo/pkg/fixedpoint"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/fixedpoint"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 // How to Calculate Cost Required to Open a Position in Perpetual Futures Contracts

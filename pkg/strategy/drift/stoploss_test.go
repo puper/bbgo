@@ -3,9 +3,9 @@ package drift
 import (
 	"testing"
 
-	"github.com/c9s/bbgo/pkg/datatype/floats"
-	"github.com/c9s/bbgo/pkg/fixedpoint"
-	"github.com/c9s/bbgo/pkg/indicator"
+	"github.com/puper/bbgo/pkg/datatype/floats"
+	"github.com/puper/bbgo/pkg/fixedpoint"
+	"github.com/puper/bbgo/pkg/indicator"
 	"github.com/stretchr/testify/assert"
 )
 

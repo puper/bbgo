@@ -3,8 +3,8 @@ package bbgo
 import (
 	"github.com/sirupsen/logrus"
 
-	indicatorv2 "github.com/c9s/bbgo/pkg/indicator/v2"
-	"github.com/c9s/bbgo/pkg/types"
+	indicatorv2 "github.com/puper/bbgo/pkg/indicator/v2"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 // IndicatorSet is the v2 standard indicator set

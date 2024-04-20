@@ -3,8 +3,8 @@ package indicator
 import (
 	"time"
 
-	"github.com/c9s/bbgo/pkg/datatype/floats"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/datatype/floats"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 // vwma implements the volume weighted moving average (VWMA) indicator:

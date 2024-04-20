@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/c9s/bbgo/pkg/version"
+	"github.com/puper/bbgo/pkg/version"
 )
 
 func init() {

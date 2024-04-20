@@ -10,10 +10,10 @@ import (
 	log "github.com/sirupsen/logrus"
 	"go.uber.org/multierr"
 
-	"github.com/c9s/bbgo/pkg/core"
-	"github.com/c9s/bbgo/pkg/fixedpoint"
-	"github.com/c9s/bbgo/pkg/types"
-	"github.com/c9s/bbgo/pkg/util"
+	"github.com/puper/bbgo/pkg/core"
+	"github.com/puper/bbgo/pkg/fixedpoint"
+	"github.com/puper/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/util"
 )
 
 var DefaultSubmitOrderRetryTimeout = 5 * time.Minute

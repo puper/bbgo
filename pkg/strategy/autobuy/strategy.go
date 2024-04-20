@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/c9s/bbgo/pkg/bbgo"
-	"github.com/c9s/bbgo/pkg/fixedpoint"
-	indicatorv2 "github.com/c9s/bbgo/pkg/indicator/v2"
-	"github.com/c9s/bbgo/pkg/strategy/common"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/bbgo"
+	"github.com/puper/bbgo/pkg/fixedpoint"
+	indicatorv2 "github.com/puper/bbgo/pkg/indicator/v2"
+	"github.com/puper/bbgo/pkg/strategy/common"
+	"github.com/puper/bbgo/pkg/types"
 	"github.com/robfig/cron/v3"
 	"github.com/sirupsen/logrus"
 )

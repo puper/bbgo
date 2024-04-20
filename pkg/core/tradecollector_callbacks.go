@@ -3,8 +3,8 @@
 package core
 
 import (
-	"github.com/c9s/bbgo/pkg/fixedpoint"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/fixedpoint"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 func (c *TradeCollector) OnRecover(cb func(trade types.Trade)) {

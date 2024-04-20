@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/c9s/bbgo/pkg/datatype/floats"
+	"github.com/puper/bbgo/pkg/datatype/floats"
 )
 
 func TestOmega(t *testing.T) {

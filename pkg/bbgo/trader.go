@@ -11,8 +11,8 @@ import (
 
 	_ "github.com/go-sql-driver/mysql"
 
-	"github.com/c9s/bbgo/pkg/dynamic"
-	"github.com/c9s/bbgo/pkg/interact"
+	"github.com/puper/bbgo/pkg/dynamic"
+	"github.com/puper/bbgo/pkg/interact"
 )
 
 // Strategy method calls:

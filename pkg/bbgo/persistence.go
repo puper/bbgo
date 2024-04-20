@@ -10,8 +10,8 @@ import (
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/c9s/bbgo/pkg/dynamic"
-	"github.com/c9s/bbgo/pkg/service"
+	"github.com/puper/bbgo/pkg/dynamic"
+	"github.com/puper/bbgo/pkg/service"
 )
 
 var defaultPersistenceServiceFacade = &service.PersistenceServiceFacade{

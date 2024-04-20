@@ -3,9 +3,9 @@ package factorzoo
 import (
 	"time"
 
-	"github.com/c9s/bbgo/pkg/datatype/floats"
-	"github.com/c9s/bbgo/pkg/indicator"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/datatype/floats"
+	"github.com/puper/bbgo/pkg/indicator"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 // simply internal return rate over certain timeframe(interval)

@@ -8,7 +8,7 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 
-	"github.com/c9s/bbgo/pkg/exchange/kucoin/kucoinapi"
+	"github.com/puper/bbgo/pkg/exchange/kucoin/kucoinapi"
 )
 
 func init() {

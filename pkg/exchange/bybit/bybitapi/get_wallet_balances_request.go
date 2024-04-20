@@ -3,7 +3,7 @@ package bybitapi
 import (
 	"github.com/c9s/requestgen"
 
-	"github.com/c9s/bbgo/pkg/fixedpoint"
+	"github.com/puper/bbgo/pkg/fixedpoint"
 )
 
 //go:generate -command GetRequest requestgen -method GET -responseType .APIResponse -responseDataField Result

@@ -3,7 +3,7 @@ package retry
 import (
 	"context"
 
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 func QueryTickerUntilSuccessful(ctx context.Context, ex types.Exchange, symbol string) (ticker *types.Ticker, err error) {

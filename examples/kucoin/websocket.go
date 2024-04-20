@@ -7,8 +7,8 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/c9s/bbgo/pkg/exchange/kucoin"
-	"github.com/c9s/bbgo/pkg/exchange/kucoin/kucoinapi"
+	"github.com/puper/bbgo/pkg/exchange/kucoin"
+	"github.com/puper/bbgo/pkg/exchange/kucoin/kucoinapi"
 	"github.com/gorilla/websocket"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"

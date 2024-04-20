@@ -8,10 +8,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/c9s/bbgo/pkg/bbgo"
-	"github.com/c9s/bbgo/pkg/fixedpoint"
-	. "github.com/c9s/bbgo/pkg/testing/testhelper"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/bbgo"
+	"github.com/puper/bbgo/pkg/fixedpoint"
+	. "github.com/puper/bbgo/pkg/testing/testhelper"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 func newTestBTCUSDTMarket() types.Market {

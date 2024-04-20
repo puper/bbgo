@@ -3,7 +3,7 @@
 package max
 
 import (
-	"github.com/c9s/bbgo/pkg/exchange/max/maxapi"
+	"github.com/puper/bbgo/pkg/exchange/max/maxapi"
 )
 
 func (s *Stream) OnAuthEvent(cb func(e max.AuthEvent)) {

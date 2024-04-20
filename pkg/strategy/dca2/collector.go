@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/c9s/bbgo/pkg/exchange/retry"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/exchange/retry"
+	"github.com/puper/bbgo/pkg/types"
 	"github.com/sirupsen/logrus"
 )
 

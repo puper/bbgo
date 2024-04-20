@@ -9,9 +9,9 @@ import (
 	"github.com/gorilla/websocket"
 	"golang.org/x/time/rate"
 
-	"github.com/c9s/bbgo/pkg/exchange/okex/okexapi"
-	"github.com/c9s/bbgo/pkg/exchange/retry"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/exchange/okex/okexapi"
+	"github.com/puper/bbgo/pkg/exchange/retry"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 var (

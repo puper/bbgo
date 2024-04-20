@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/c9s/bbgo/pkg/datatype/floats"
+	"github.com/puper/bbgo/pkg/datatype/floats"
 )
 
 type Float64Series struct {

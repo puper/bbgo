@@ -5,9 +5,9 @@ import (
 	log "github.com/sirupsen/logrus"
 	"math"
 
-	"github.com/c9s/bbgo/pkg/bbgo"
-	"github.com/c9s/bbgo/pkg/indicator"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/bbgo"
+	"github.com/puper/bbgo/pkg/indicator"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 type DynamicSpread struct {

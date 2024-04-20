@@ -9,7 +9,7 @@ import (
 
 	"golang.org/x/time/rate"
 
-	"github.com/c9s/bbgo/pkg/exchange/bybit/bybitapi"
+	"github.com/puper/bbgo/pkg/exchange/bybit/bybitapi"
 )
 
 const (

@@ -1,6 +1,6 @@
 package bbgo
 
-import "github.com/c9s/bbgo/pkg/types"
+import "github.com/puper/bbgo/pkg/types"
 
 const MaxNumOfKLines = 5_000
 const MaxNumOfKLinesTruncate = 100

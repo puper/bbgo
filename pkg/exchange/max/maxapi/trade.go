@@ -10,8 +10,8 @@ import (
 
 	"github.com/c9s/requestgen"
 
-	"github.com/c9s/bbgo/pkg/fixedpoint"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/fixedpoint"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 type MarkerInfo struct {

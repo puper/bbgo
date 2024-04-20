@@ -11,9 +11,9 @@ import (
 	"github.com/jmoiron/sqlx"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/c9s/bbgo/pkg/exchange/binance"
-	"github.com/c9s/bbgo/pkg/service"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/exchange/binance"
+	"github.com/puper/bbgo/pkg/service"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 func TestTradeService(t *testing.T) {

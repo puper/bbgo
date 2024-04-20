@@ -3,7 +3,7 @@ package bbgo
 import (
 	"context"
 
-	"github.com/c9s/bbgo/pkg/service"
+	"github.com/puper/bbgo/pkg/service"
 )
 
 const IsolationContextKey = "bbgo"

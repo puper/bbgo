@@ -11,11 +11,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/mock/gomock"
 
-	"github.com/c9s/bbgo/pkg/core"
-	"github.com/c9s/bbgo/pkg/fixedpoint"
-	gridmocks "github.com/c9s/bbgo/pkg/strategy/grid2/mocks"
-	"github.com/c9s/bbgo/pkg/types"
-	"github.com/c9s/bbgo/pkg/types/mocks"
+	"github.com/puper/bbgo/pkg/core"
+	"github.com/puper/bbgo/pkg/fixedpoint"
+	gridmocks "github.com/puper/bbgo/pkg/strategy/grid2/mocks"
+	"github.com/puper/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/types/mocks"
 )
 
 func init() {

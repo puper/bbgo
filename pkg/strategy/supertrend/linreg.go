@@ -3,9 +3,9 @@ package supertrend
 import (
 	"time"
 
-	"github.com/c9s/bbgo/pkg/datatype/floats"
-	"github.com/c9s/bbgo/pkg/indicator"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/datatype/floats"
+	"github.com/puper/bbgo/pkg/indicator"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 // LinReg is Linear Regression baseline

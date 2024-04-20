@@ -6,7 +6,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/c9s/bbgo/pkg/style"
+	"github.com/puper/bbgo/pkg/style"
 )
 
 // SideType define side type of order

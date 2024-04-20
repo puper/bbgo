@@ -23,9 +23,9 @@ import (
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/c9s/bbgo/pkg/util"
-	"github.com/c9s/bbgo/pkg/util/backoff"
-	"github.com/c9s/bbgo/pkg/version"
+	"github.com/puper/bbgo/pkg/util"
+	"github.com/puper/bbgo/pkg/util/backoff"
+	"github.com/puper/bbgo/pkg/version"
 )
 
 const (

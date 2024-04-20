@@ -6,11 +6,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/c9s/bbgo/pkg/bbgo"
-	"github.com/c9s/bbgo/pkg/fixedpoint"
-	"github.com/c9s/bbgo/pkg/types"
-	"github.com/c9s/bbgo/pkg/util"
-	"github.com/c9s/bbgo/pkg/util/templateutil"
+	"github.com/puper/bbgo/pkg/bbgo"
+	"github.com/puper/bbgo/pkg/fixedpoint"
+	"github.com/puper/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/util"
+	"github.com/puper/bbgo/pkg/util/templateutil"
 
 	"github.com/robfig/cron/v3"
 	"github.com/sirupsen/logrus"

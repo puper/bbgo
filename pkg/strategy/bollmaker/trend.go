@@ -1,7 +1,7 @@
 package bollmaker
 
 import (
-	indicatorv2 "github.com/c9s/bbgo/pkg/indicator/v2"
+	indicatorv2 "github.com/puper/bbgo/pkg/indicator/v2"
 )
 
 type PriceTrend string

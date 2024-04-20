@@ -3,7 +3,7 @@ package bitgetapi
 import (
 	"github.com/c9s/requestgen"
 
-	"github.com/c9s/bbgo/pkg/exchange/bitget/bitgetapi"
+	"github.com/puper/bbgo/pkg/exchange/bitget/bitgetapi"
 )
 
 const (

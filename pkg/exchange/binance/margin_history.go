@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/c9s/bbgo/pkg/exchange/binance/binanceapi"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/exchange/binance/binanceapi"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 type BorrowRepayType interface {

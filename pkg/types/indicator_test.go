@@ -10,7 +10,7 @@ import (
 	"github.com/wcharczuk/go-chart/v2"
 	"gonum.org/v1/gonum/stat"
 
-	"github.com/c9s/bbgo/pkg/datatype/floats"
+	"github.com/puper/bbgo/pkg/datatype/floats"
 )
 
 func TestQueue(t *testing.T) {

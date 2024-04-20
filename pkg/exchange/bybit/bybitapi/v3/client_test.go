@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/c9s/bbgo/pkg/exchange/bybit/bybitapi"
-	"github.com/c9s/bbgo/pkg/testutil"
+	"github.com/puper/bbgo/pkg/exchange/bybit/bybitapi"
+	"github.com/puper/bbgo/pkg/testutil"
 )
 
 func getTestClientOrSkip(t *testing.T) *bybitapi.RestClient {

@@ -5,10 +5,10 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/c9s/bbgo/pkg/bbgo"
-	"github.com/c9s/bbgo/pkg/dynamic"
-	"github.com/c9s/bbgo/pkg/interact"
-	"github.com/c9s/bbgo/pkg/style"
+	"github.com/puper/bbgo/pkg/bbgo"
+	"github.com/puper/bbgo/pkg/dynamic"
+	"github.com/puper/bbgo/pkg/interact"
+	"github.com/puper/bbgo/pkg/style"
 	"github.com/jedib0t/go-pretty/v6/table"
 )
 

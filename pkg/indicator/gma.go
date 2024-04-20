@@ -3,7 +3,7 @@ package indicator
 import (
 	"math"
 
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 // Geometric Moving Average

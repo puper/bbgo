@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/mock/gomock"
 
-	"github.com/c9s/bbgo/pkg/types"
-	"github.com/c9s/bbgo/pkg/types/mocks"
+	"github.com/puper/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/types/mocks"
 )
 
 func Test_newMarketMemCache(t *testing.T) {

@@ -9,9 +9,9 @@ import (
 
 	"github.com/cenkalti/backoff/v4"
 
-	"github.com/c9s/bbgo/pkg/exchange/max"
-	maxapi "github.com/c9s/bbgo/pkg/exchange/max/maxapi"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/exchange/max"
+	maxapi "github.com/puper/bbgo/pkg/exchange/max/maxapi"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 var ErrOrderIsNil = errors.New("order object is nil")

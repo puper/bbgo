@@ -3,8 +3,8 @@ package tri
 import (
 	"github.com/slack-go/slack"
 
-	"github.com/c9s/bbgo/pkg/fixedpoint"
-	"github.com/c9s/bbgo/pkg/style"
+	"github.com/puper/bbgo/pkg/fixedpoint"
+	"github.com/puper/bbgo/pkg/style"
 )
 
 type Profit struct {

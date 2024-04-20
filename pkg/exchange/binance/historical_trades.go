@@ -3,7 +3,7 @@ package binance
 import (
 	"context"
 
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 func (e *Exchange) QueryHistoricalTrades(ctx context.Context, symbol string, limit uint64) ([]types.Trade, error) {

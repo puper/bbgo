@@ -3,8 +3,8 @@ package rebalance
 import (
 	"context"
 
-	"github.com/c9s/bbgo/pkg/bbgo"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/bbgo"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 type PositionMap map[string]*types.Position

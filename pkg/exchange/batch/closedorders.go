@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 type ClosedOrderBatchQuery struct {

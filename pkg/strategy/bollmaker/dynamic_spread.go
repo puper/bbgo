@@ -5,10 +5,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/c9s/bbgo/pkg/bbgo"
-	"github.com/c9s/bbgo/pkg/indicator"
-	indicatorv2 "github.com/c9s/bbgo/pkg/indicator/v2"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/bbgo"
+	"github.com/puper/bbgo/pkg/indicator"
+	indicatorv2 "github.com/puper/bbgo/pkg/indicator/v2"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 type DynamicSpreadSettings struct {

@@ -5,8 +5,8 @@ import (
 
 	"github.com/jedib0t/go-pretty/v6/table"
 
-	"github.com/c9s/bbgo/pkg/dynamic"
-	"github.com/c9s/bbgo/pkg/style"
+	"github.com/puper/bbgo/pkg/dynamic"
+	"github.com/puper/bbgo/pkg/style"
 )
 
 func (s *Strategy) Print(f io.Writer, pretty bool, withColor ...bool) {

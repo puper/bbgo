@@ -3,7 +3,7 @@ package bbgo
 import (
 	"testing"
 
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 func Test_TrendEMA(t *testing.T) {

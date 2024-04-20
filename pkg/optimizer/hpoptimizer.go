@@ -10,7 +10,7 @@ import (
 	goptunaCMAES "github.com/c-bata/goptuna/cmaes"
 	goptunaSOBOL "github.com/c-bata/goptuna/sobol"
 	goptunaTPE "github.com/c-bata/goptuna/tpe"
-	"github.com/c9s/bbgo/pkg/fixedpoint"
+	"github.com/puper/bbgo/pkg/fixedpoint"
 	"github.com/cheggaaa/pb/v3"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/sync/errgroup"

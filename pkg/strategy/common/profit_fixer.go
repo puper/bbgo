@@ -8,8 +8,8 @@ import (
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/c9s/bbgo/pkg/exchange/batch"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/exchange/batch"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 // ProfitFixerConfig is used for fixing profitStats and position by re-playing the trade history

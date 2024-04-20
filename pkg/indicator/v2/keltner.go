@@ -1,7 +1,7 @@
 package indicatorv2
 
 import (
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 type KeltnerStream struct {

@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/types"
 	"github.com/c9s/requestgen"
 )
 

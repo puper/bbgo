@@ -3,7 +3,7 @@ package types
 import (
 	"reflect"
 
-	"github.com/c9s/bbgo/pkg/datatype/floats"
+	"github.com/puper/bbgo/pkg/datatype/floats"
 )
 
 // The interface maps to pinescript basic type `series`

@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/c9s/bbgo/pkg/bbgo"
-	"github.com/c9s/bbgo/pkg/fixedpoint"
-	"github.com/c9s/bbgo/pkg/strategy/common"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/bbgo"
+	"github.com/puper/bbgo/pkg/fixedpoint"
+	"github.com/puper/bbgo/pkg/strategy/common"
+	"github.com/puper/bbgo/pkg/types"
 	"github.com/sirupsen/logrus"
 )
 

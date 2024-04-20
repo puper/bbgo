@@ -13,8 +13,8 @@ import (
 	prefixed "github.com/x-cray/logrus-prefixed-formatter"
 	tb "gopkg.in/tucnak/telebot.v2"
 
-	"github.com/c9s/bbgo/pkg/cmd/cmdutil"
-	"github.com/c9s/bbgo/pkg/interact"
+	"github.com/puper/bbgo/pkg/cmd/cmdutil"
+	"github.com/puper/bbgo/pkg/interact"
 )
 
 func parseFloatPercent(s string, bitSize int) (f float64, err error) {

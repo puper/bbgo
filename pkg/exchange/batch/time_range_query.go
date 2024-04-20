@@ -9,7 +9,7 @@ import (
 	"github.com/sirupsen/logrus"
 	"golang.org/x/time/rate"
 
-	"github.com/c9s/bbgo/pkg/util"
+	"github.com/puper/bbgo/pkg/util"
 )
 
 var log = logrus.WithField("component", "batch")

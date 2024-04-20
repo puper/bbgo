@@ -3,7 +3,7 @@ package bbgo
 import (
 	"testing"
 
-	"github.com/c9s/bbgo/pkg/fixedpoint"
+	"github.com/puper/bbgo/pkg/fixedpoint"
 	"github.com/stretchr/testify/assert"
 )
 

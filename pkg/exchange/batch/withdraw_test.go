@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/c9s/bbgo/pkg/exchange/binance"
-	"github.com/c9s/bbgo/pkg/testutil"
+	"github.com/puper/bbgo/pkg/exchange/binance"
+	"github.com/puper/bbgo/pkg/testutil"
 )
 
 func TestWithdrawBatchQuery(t *testing.T) {

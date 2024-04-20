@@ -3,7 +3,7 @@ package tri
 import (
 	"math"
 
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 func fitQuantityByBase(quantity, balance float64) (float64, float64) {

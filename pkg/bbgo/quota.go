@@ -3,7 +3,7 @@ package bbgo
 import (
 	"sync"
 
-	"github.com/c9s/bbgo/pkg/fixedpoint"
+	"github.com/puper/bbgo/pkg/fixedpoint"
 )
 
 type Quota struct {

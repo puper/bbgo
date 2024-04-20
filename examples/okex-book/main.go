@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/c9s/bbgo/pkg/exchange/okex/okexapi"
+	"github.com/puper/bbgo/pkg/exchange/okex/okexapi"
 	"github.com/joho/godotenv"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"

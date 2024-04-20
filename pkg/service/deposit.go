@@ -7,9 +7,9 @@ import (
 	sq "github.com/Masterminds/squirrel"
 	"github.com/jmoiron/sqlx"
 
-	"github.com/c9s/bbgo/pkg/exchange"
-	"github.com/c9s/bbgo/pkg/exchange/batch"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/exchange"
+	"github.com/puper/bbgo/pkg/exchange/batch"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 type DepositService struct {

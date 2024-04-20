@@ -1,8 +1,8 @@
 package exchange
 
 import (
-	"github.com/c9s/bbgo/pkg/exchange/max"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/exchange/max"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 func GetSessionAttributes(exchange types.Exchange) (isMargin, isFutures, isIsolated bool, isolatedSymbol string) {

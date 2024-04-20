@@ -9,11 +9,11 @@ import (
 	"github.com/sirupsen/logrus"
 	"gonum.org/v1/gonum/floats"
 
-	"github.com/c9s/bbgo/pkg/bbgo"
-	"github.com/c9s/bbgo/pkg/core"
-	floats2 "github.com/c9s/bbgo/pkg/datatype/floats"
-	"github.com/c9s/bbgo/pkg/fixedpoint"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/bbgo"
+	"github.com/puper/bbgo/pkg/core"
+	floats2 "github.com/puper/bbgo/pkg/datatype/floats"
+	"github.com/puper/bbgo/pkg/fixedpoint"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 const ID = "fmaker"

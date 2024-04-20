@@ -5,12 +5,12 @@ import (
 	"errors"
 	"time"
 
-	"github.com/c9s/bbgo/pkg/cache"
-	"github.com/c9s/bbgo/pkg/util"
+	"github.com/puper/bbgo/pkg/cache"
+	"github.com/puper/bbgo/pkg/util"
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 var ErrNotImplemented = errors.New("not implemented")

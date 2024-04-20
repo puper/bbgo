@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	. "github.com/c9s/bbgo/pkg/testing/testhelper"
-	"github.com/c9s/bbgo/pkg/types"
+	. "github.com/puper/bbgo/pkg/testing/testhelper"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 func newTestMarket() types.Market {

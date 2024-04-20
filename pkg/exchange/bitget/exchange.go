@@ -11,10 +11,10 @@ import (
 	"go.uber.org/multierr"
 	"golang.org/x/time/rate"
 
-	"github.com/c9s/bbgo/pkg/exchange/bitget/bitgetapi"
-	v2 "github.com/c9s/bbgo/pkg/exchange/bitget/bitgetapi/v2"
-	"github.com/c9s/bbgo/pkg/fixedpoint"
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/exchange/bitget/bitgetapi"
+	v2 "github.com/puper/bbgo/pkg/exchange/bitget/bitgetapi/v2"
+	"github.com/puper/bbgo/pkg/fixedpoint"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 const (

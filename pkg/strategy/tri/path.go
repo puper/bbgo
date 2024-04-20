@@ -3,7 +3,7 @@ package tri
 import (
 	"fmt"
 
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/types"
 )
 
 type Path struct {

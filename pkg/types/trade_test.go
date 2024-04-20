@@ -1,7 +1,7 @@
 package types
 
 import "testing"
-import "github.com/c9s/bbgo/pkg/fixedpoint"
+import "github.com/puper/bbgo/pkg/fixedpoint"
 
 func Test_trimTrailingZero(t *testing.T) {
 	type args struct {

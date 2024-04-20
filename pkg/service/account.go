@@ -1,7 +1,7 @@
 package service
 
 import (
-	"github.com/c9s/bbgo/pkg/types"
+	"github.com/puper/bbgo/pkg/types"
 	"github.com/jmoiron/sqlx"
 	"go.uber.org/multierr"
 	"time"
