@@ -499,7 +499,7 @@ func (session *ExchangeSession) initSymbol(ctx context.Context, environ *Environ
 
 				kLines, err := session.Exchange.QueryKLines(ctx, symbol, interval, types.KLineQueryOptions{
 					EndTime: &e,
-					Limit:   1000, // indicators need at least 100
+					Limit:   100, // indicators need at least 100
 				})
 				if err != nil {
 					return err
