@@ -67,6 +67,7 @@ func toGlobalFuturesMarket(symbol futures.Symbol) types.Market {
 		VolumePrecision: symbol.BaseAssetPrecision,
 		QuoteCurrency:   symbol.QuoteAsset,
 		BaseCurrency:    symbol.BaseAsset,
+		ContractType:    string(symbol.ContractType),
 	}
 
 	if f := symbol.MinNotionalFilter(); f != nil {

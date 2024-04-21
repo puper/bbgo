@@ -52,8 +52,9 @@ type Market struct {
 	// TickSize is the step size of price
 	TickSize fixedpoint.Value `json:"tickSize,omitempty"`
 
-	MinPrice fixedpoint.Value `json:"minPrice,omitempty"`
-	MaxPrice fixedpoint.Value `json:"maxPrice,omitempty"`
+	MinPrice     fixedpoint.Value `json:"minPrice,omitempty"`
+	MaxPrice     fixedpoint.Value `json:"maxPrice,omitempty"`
+	ContractType string           `json:"contractType,omitempty"`
 }
 
 func (m Market) IsDustQuantity(quantity, price fixedpoint.Value) bool {
@@ -219,7 +220,7 @@ func (m Market) CanonicalizeVolume(val fixedpoint.Value) float64 {
 	return math.Trunc(p*val.Float64()) / p
 }
 
-func (m Market) AdjustQuantityByMinQuantity(quantity fixedpoint.Value)  fixedpoint.Value {
+func (m Market) AdjustQuantityByMinQuantity(quantity fixedpoint.Value) fixedpoint.Value {
 	return fixedpoint.Max(quantity, m.MinQuantity)
 }
 
