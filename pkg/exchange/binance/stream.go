@@ -149,6 +149,21 @@ func (s *Stream) handleDisconnect() {
 		f.Reset()
 	}
 }
+func StringBatch(data []string, num int) [][]string {
+	var batch [][]string
+	l := len(data)
+	if l < num {
+		return append(batch, data)
+	}
+	for i := 0; i < l; i += num {
+		end := i + num
+		if end > l {
+			end = l
+		}
+		batch = append(batch, data[i:end])
+	}
+	return batch
+}
 
 func (s *Stream) handleConnect() {
 	if !s.PublicOnly {
@@ -168,14 +183,16 @@ func (s *Stream) handleConnect() {
 	}
 
 	log.Infof("subscribing channels: %+v", params)
-	err := s.Conn.WriteJSON(WebSocketCommand{
-		Method: "SUBSCRIBE",
-		Params: params,
-		ID:     1,
-	})
+	for _, paramsBatch := range StringBatch(params, 100) {
+		err := s.Conn.WriteJSON(WebSocketCommand{
+			Method: "SUBSCRIBE",
+			Params: paramsBatch,
+			ID:     1,
+		})
 
-	if err != nil {
-		log.WithError(err).Error("subscribe error")
+		if err != nil {
+			log.WithError(err).Error("subscribe error")
+		}
 	}
 }
 
