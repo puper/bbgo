@@ -183,11 +183,11 @@ func (s *Stream) handleConnect() {
 	}
 
 	log.Infof("subscribing channels: %+v", params)
-	for _, paramsBatch := range StringBatch(params, 100) {
+	for i, paramsBatch := range StringBatch(params, 100) {
 		err := s.Conn.WriteJSON(WebSocketCommand{
 			Method: "SUBSCRIBE",
 			Params: paramsBatch,
-			ID:     1,
+			ID:     i,
 		})
 
 		if err != nil {
