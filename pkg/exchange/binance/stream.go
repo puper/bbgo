@@ -187,7 +187,7 @@ func (s *Stream) handleConnect() {
 		err := s.Conn.WriteJSON(WebSocketCommand{
 			Method: "SUBSCRIBE",
 			Params: paramsBatch,
-			ID:     i,
+			ID:     i + 1,
 		})
 
 		if err != nil {
